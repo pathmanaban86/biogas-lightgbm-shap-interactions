@@ -136,6 +136,7 @@ for a, v, yl in [(ax[0], 'y', f'Daily mean biogas ({U})'), (ax[1], 'Ta', 'Daily 
     a.boxplot([daily[daily.Season == s][v] for s in order], tick_labels=order, widths=0.5, showfliers=False,
               medianprops=dict(color=ORANGE), boxprops=dict(color=INK), whiskerprops=dict(color=INK), capprops=dict(color=INK))
     a.set_ylabel(yl); a.tick_params(axis='x', labelsize=8)
+for i, a in enumerate(ax): a.text(-0.15, 1.02, f'({"ab"[i]})', transform=a.transAxes)
 fig.tight_layout(); save(fig, 'Figure_S3')
 # S4: CV fold performance per model
 print('figures done')
