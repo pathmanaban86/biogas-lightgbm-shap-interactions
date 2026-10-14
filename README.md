@@ -56,7 +56,7 @@ Run the scripts in order from the repository root:
 
 ## Citation
 
-Please cite the archived release (DOI on the Zenodo badge / `CITATION.cff`) and the article once published.
+Please cite release v1.0.0 of this repository (see `CITATION.cff`) and the article once published.
 
 ## License
 
