@@ -108,7 +108,7 @@ for tag, key in [('a', 'Highest predicted yield'), ('b', 'Lowest predicted yield
     i = S['cases'][key]
     e = shap.Explanation(values=sv[i], base_values=base, data=Xt.values[i].round(2), feature_names=lab)
     plt.figure(); shap.plots.waterfall(e, max_display=10, show=False)
-    f = plt.gcf(); f.set_size_inches(6, 4.6); nogrid(f); save(f, f'Figure_7{tag}')
+    f = plt.gcf(); f.set_size_inches(8, 4.6); nogrid(f); save(f, f'Figure_7{tag}')
 
 # ---------- Supplementary ----------
 # S1: distributions
