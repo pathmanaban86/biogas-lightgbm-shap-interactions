@@ -1,0 +1,16 @@
+{
+  "title": "Code for: Machine learning prediction of biogas production from multi-feedstock anaerobic digestion based on LightGBM and SHAP interaction analysis",
+  "upload_type": "software",
+  "description": "Python scripts that reproduce all tables and figures of the manuscript: data audit of the public Indian Biogas Production dataset (Kaggle), date-based chronological split, Optuna tuning of linear regression, Random Forest, XGBoost, CatBoost and LightGBM with expanding-window time-series cross-validation, SHAP main-effect and interaction analysis with an additive-model null distribution and Benjamini-Hochberg correction, grouped permutation and drop-group analyses, and Kruskal-Wallis/Dunn seasonal tests. The dataset itself is not redistributed.",
+  "creators": [
+    {"name": "Pugazhendi, Pathmanaban", "affiliation": "Department of Automobile Engineering, Easwari Engineering College, Chennai, India", "orcid": "0000-0002-0371-2586"},
+    {"name": "Panneerselvam, Anuradha", "affiliation": "Department of CSE-AIML, Easwari Engineering College, Chennai, India"},
+    {"name": "Vasanthakumari, O.", "affiliation": "Department of Computer Science and Engineering, S.A. Engineering College (Autonomous), Chennai, India"},
+    {"name": "Murali, D.", "affiliation": "Department of Mechanical Engineering, St. Joseph's Institute of Technology (Autonomous), Chennai, India"}
+  ],
+  "keywords": ["anaerobic digestion", "biogas", "LightGBM", "SHAP", "SHAP interaction values", "explainable machine learning", "time-series cross-validation"],
+  "license": "MIT",
+  "related_identifiers": [
+    {"identifier": "https://www.kaggle.com/datasets/ucimachinelearning/indian-biogas-production-dataset", "relation": "references", "resource_type": "dataset"}
+  ]
+}

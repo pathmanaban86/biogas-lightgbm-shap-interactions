@@ -1,0 +1,49 @@
+{
+ "reproduction": {
+  "R2": 0.9887323726238342,
+  "RMSE": 1.170748758397522,
+  "MAE": 0.9074796767449623,
+  "MAPE": 1.152586814926649
+ },
+ "best_params": {
+  "Linear": {},
+  "RF": {
+   "n_estimators": 500,
+   "max_depth": 19,
+   "min_samples_leaf": 1,
+   "max_features": 0.6220746808610526
+  },
+  "XGBoost": {
+   "n_estimators": 1500,
+   "learning_rate": 0.0716086938858803,
+   "max_depth": 2,
+   "subsample": 0.7178906569885176,
+   "colsample_bytree": 0.8747709166685682,
+   "reg_lambda": 0.10433074138908126
+  },
+  "CatBoost": {
+   "iterations": 1500,
+   "learning_rate": 0.09511477731300422,
+   "depth": 4,
+   "l2_leaf_reg": 5.75197369281679
+  },
+  "LightGBM-additive": {
+   "n_estimators": 2000,
+   "learning_rate": 0.11200049646198987,
+   "min_child_samples": 11,
+   "subsample": 0.7360934284534543,
+   "colsample_bytree": 0.8237548869607234,
+   "reg_lambda": 0.011652891433823262
+  },
+  "LightGBM": {
+   "n_estimators": 1900,
+   "learning_rate": 0.08273826266538988,
+   "min_child_samples": 21,
+   "subsample": 0.8592539412835143,
+   "colsample_bytree": 0.7609103038319224,
+   "reg_lambda": 0.04782522066706558,
+   "num_leaves": 4,
+   "max_depth": 3
+  }
+ }
+}

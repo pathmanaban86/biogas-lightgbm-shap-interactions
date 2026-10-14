@@ -1,0 +1,6 @@
+data/*.csv
+!data/README.md
+__pycache__/
+*.pkl
+.ipynb_checkpoints/
+results/daily_seasonal.csv

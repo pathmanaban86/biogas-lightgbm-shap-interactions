@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Code for: Machine learning prediction of biogas production from multi-feedstock anaerobic digestion based on LightGBM and SHAP interaction analysis"
+type: software
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-14"
+authors:
+  - family-names: Pugazhendi
+    given-names: Pathmanaban
+    orcid: "https://orcid.org/0000-0002-0371-2586"
+    affiliation: "Easwari Engineering College, Chennai, India"
+  - family-names: Panneerselvam
+    given-names: Anuradha
+    affiliation: "Easwari Engineering College, Chennai, India"
+  - family-names: Vasanthakumari
+    given-names: O.
+    affiliation: "S.A. Engineering College (Autonomous), Chennai, India"
+  - family-names: Murali
+    given-names: D.
+    affiliation: "St. Joseph's Institute of Technology (Autonomous), Chennai, India"
+repository-code: "https://github.com/pathmanaban86/biogas-lightgbm-shap-interactions"
+keywords:
+  - anaerobic digestion
+  - biogas
+  - LightGBM
+  - SHAP

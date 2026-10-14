@@ -1,0 +1,19 @@
+,mean_abs_SHAP,share_pct,cum_pct
+Pig Manure (kg),6.1695,25.0434,25.0434
+Kitchen Food Waste (kg),3.5799,14.5316,39.575
+Cassava (kg),3.1508,12.7897,52.3647
+Municipal Residue (kg),2.2834,9.2689,61.6336
+Chicken Litter (kg),2.2798,9.2543,70.8879
+Bagasse Feed (kg),1.9548,7.9349,78.8228
+Temperature (C),1.1482,4.6607,83.4835
+Water (L),1.1148,4.5252,88.0087
+Energy Grass (kg),0.8759,3.5555,91.5642
+Fish Waste (kg),0.6576,2.6692,94.2335
+Banana Shafts (kg),0.52,2.1109,96.3444
+Alcohol Waste (kg),0.3398,1.3791,97.7235
+Diesel (L),0.1337,0.5428,98.2663
+Humidity (%),0.1057,0.4292,98.6955
+Electricity Use (kWh),0.0896,0.3636,99.059
+Digester Temp (C),0.083,0.3368,99.3959
+C/N Ratio,0.0798,0.3241,99.7199
+Rainfall (mm),0.069,0.2801,100.0

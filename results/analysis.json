@@ -1,0 +1,200 @@
+{
+ "base_value": 79.2177205210179,
+ "group_share": {
+  "Feedstock": 88.537617452779,
+  "Operational": 6.092463955797228,
+  "Climate": 5.369918591423759
+ },
+ "top3_share": 52.36474735446341,
+ "interaction_var_share_pct": 0.2759893932287569,
+ "interaction_abs_share_pct": 3.7556756647833853,
+ "thr70": 0.05033786456934785,
+ "rho_int_vs_importance": [
+  0.8382081686429511,
+  6.798045256540056e-13
+ ],
+ "perm": {
+  "Feedstock": [
+   14.510035749573685,
+   0.1691290170773527
+  ],
+  "Operational": [
+   1.3317361849821991,
+   0.01994860363639619
+  ],
+  "Climate": [
+   1.3437108240287707,
+   0.020861362859024096
+  ]
+ },
+ "drop": {
+  "All": {
+   "R2": 0.9939310695423964,
+   "RMSE": 0.8593366408622461
+  },
+  "Without climate": {
+   "R2": 0.9763750485469881,
+   "RMSE": 1.6954801582957293
+  },
+  "Without operational": {
+   "R2": 0.9760130535189473,
+   "RMSE": 1.7084203362351509
+  },
+  "Feedstock only": {
+   "R2": 0.9579437125731024,
+   "RMSE": 2.2621568569361727
+  }
+ },
+ "base_rmse": 0.8593366408622461,
+ "seasonal": {
+  "y": {
+   "H": 9.642929171589252,
+   "p": 0.021858454167800752,
+   "eps2": 0.0012133203966373063,
+   "means": {
+    "Monsoon": 78.93428069927141,
+    "Post-monsoon": 79.59601153176328,
+    "Pre-monsoon": 78.98435514094203,
+    "Winter": 79.5329680112486
+   },
+   "sds": {
+    "Monsoon": 6.785685427126653,
+    "Post-monsoon": 7.054878645086913,
+    "Pre-monsoon": 6.810623521880243,
+    "Winter": 6.5807205107038635
+   },
+   "dunn": {
+    "Monsoon": {
+     "Monsoon": 1.0,
+     "Post-monsoon": 0.0982,
+     "Pre-monsoon": 1.0,
+     "Winter": 0.1648
+    },
+    "Post-monsoon": {
+     "Monsoon": 0.0982,
+     "Post-monsoon": 1.0,
+     "Pre-monsoon": 0.1152,
+     "Winter": 1.0
+    },
+    "Pre-monsoon": {
+     "Monsoon": 1.0,
+     "Post-monsoon": 0.1152,
+     "Pre-monsoon": 1.0,
+     "Winter": 0.1648
+    },
+    "Winter": {
+     "Monsoon": 0.1648,
+     "Post-monsoon": 1.0,
+     "Pre-monsoon": 0.1648,
+     "Winter": 1.0
+    }
+   }
+  },
+  "Ta": {
+   "H": 3.9036238653025066,
+   "p": 0.2720608316274457,
+   "eps2": 0.0001650454548497729,
+   "means": {
+    "Monsoon": 29.93944308335155,
+    "Post-monsoon": 29.976663273298307,
+    "Pre-monsoon": 30.05078336514372,
+    "Winter": 29.977888738035244
+   },
+   "sds": {
+    "Monsoon": 1.8321285993990777,
+    "Post-monsoon": 1.8463331855725005,
+    "Pre-monsoon": 1.8444258077274038,
+    "Winter": 1.7761143337835112
+   },
+   "dunn": {
+    "Monsoon": {
+     "Monsoon": 1.0,
+     "Post-monsoon": 1.0,
+     "Pre-monsoon": 0.2936,
+     "Winter": 1.0
+    },
+    "Post-monsoon": {
+     "Monsoon": 1.0,
+     "Post-monsoon": 1.0,
+     "Pre-monsoon": 1.0,
+     "Winter": 1.0
+    },
+    "Pre-monsoon": {
+     "Monsoon": 0.2936,
+     "Post-monsoon": 1.0,
+     "Pre-monsoon": 1.0,
+     "Winter": 1.0
+    },
+    "Winter": {
+     "Monsoon": 1.0,
+     "Post-monsoon": 1.0,
+     "Pre-monsoon": 1.0,
+     "Winter": 1.0
+    }
+   }
+  },
+  "R": {
+   "H": 3.5074029815586982,
+   "p": 0.31980324743741534,
+   "eps2": 9.267634366368917e-05,
+   "means": {
+    "Monsoon": 5.095372583641894,
+    "Post-monsoon": 4.857171917415579,
+    "Pre-monsoon": 4.982219692771981,
+    "Winter": 4.884505574818898
+   },
+   "sds": {
+    "Monsoon": 3.184254303295233,
+    "Post-monsoon": 3.0149961204167783,
+    "Pre-monsoon": 3.1143667131502757,
+    "Winter": 2.721356328742134
+   },
+   "dunn": {
+    "Monsoon": {
+     "Monsoon": 1.0,
+     "Post-monsoon": 0.3965,
+     "Pre-monsoon": 1.0,
+     "Winter": 1.0
+    },
+    "Post-monsoon": {
+     "Monsoon": 0.3965,
+     "Post-monsoon": 1.0,
+     "Pre-monsoon": 1.0,
+     "Winter": 1.0
+    },
+    "Pre-monsoon": {
+     "Monsoon": 1.0,
+     "Post-monsoon": 1.0,
+     "Pre-monsoon": 1.0,
+     "Winter": 1.0
+    },
+    "Winter": {
+     "Monsoon": 1.0,
+     "Post-monsoon": 1.0,
+     "Pre-monsoon": 1.0,
+     "Winter": 1.0
+    }
+   }
+  }
+ },
+ "cases": {
+  "Highest predicted yield": {
+   "row": 1349,
+   "date": "2023-04-29",
+   "y": 119.83159,
+   "f": 119.01495183119277
+  },
+  "Lowest predicted yield": {
+   "row": 2940,
+   "date": "2024-11-19",
+   "y": 45.30844,
+   "f": 44.4763505265928
+  },
+  "Largest absolute error": {
+   "row": 2994,
+   "date": "2024-12-08",
+   "y": 69.50331,
+   "f": 65.29051852161479
+  }
+ }
+}
